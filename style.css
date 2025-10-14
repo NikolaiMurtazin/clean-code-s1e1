@@ -35,7 +35,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -44,7 +44,7 @@
 
 .list-tasks {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 .task-item, .list-title {
@@ -57,7 +57,7 @@ input, button {
 
 .btn {
     background: none;
-    border: 0px;
+    border: 0;
     color: #888;
     font-size: 15px;
     width: 60px;
@@ -150,7 +150,7 @@ input#new-task {
 
 /* Completed */
 #completed-tasks label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
